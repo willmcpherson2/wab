@@ -1,0 +1,10 @@
+[package]
+name = "wab"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.41"
+wasmer = "2.0.0"
+wasmer-compiler-cranelift = "2.0.0"
+wasmer-engine-universal = "2.0.0"
